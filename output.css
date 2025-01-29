@@ -705,8 +705,8 @@ video {
   align-items: center;
 }
 
-.gap-10 {
-  gap: 2.5rem;
+.gap-11 {
+  gap: 2.75rem;
 }
 
 .gap-12 {
@@ -971,14 +971,9 @@ video {
 }
 
 @media (min-width: 1280px) {
-  .xl\:mx-\[300px\] {
-    margin-left: 300px;
-    margin-right: 300px;
-  }
-
-  .xl\:mx-\[372px\] {
-    margin-left: 372px;
-    margin-right: 372px;
+  .xl\:mx-\[312px\] {
+    margin-left: 312px;
+    margin-right: 312px;
   }
 
   .xl\:mx-\[342px\] {
@@ -986,13 +981,8 @@ video {
     margin-right: 342px;
   }
 
-  .xl\:mx-\[272px\] {
-    margin-left: 272px;
-    margin-right: 272px;
-  }
-
-  .xl\:mx-\[311px\] {
-    margin-left: 311px;
-    margin-right: 311px;
+  .xl\:mx-\[351px\] {
+    margin-left: 351px;
+    margin-right: 351px;
   }
 }
