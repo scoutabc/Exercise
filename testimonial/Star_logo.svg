@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Circle with light yellow background -->
+  <circle cx="50" cy="50" r="50" fill="rgb(243, 206, 85)"/>
+
+  <!-- Star with grey border -->
+  <polygon points="50,15 61,35 87,35 67,50 74,75 50,60 26,75 33,50 13,35 39,35"
+           fill="url(#grad1)" stroke="grey" stroke-width="0.1"/>
+
+  <!-- Gradient for the star shadow (from dark yellow at the bottom to white at the top) -->
+  <defs>
+    <linearGradient id="grad1" x1="50%" y1="100%" x2="50%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(170, 130, 0);stop-opacity:1" />
+      <stop offset="50%" style="stop-color:rgb(255, 220, 100);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255, 255, 255);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>
