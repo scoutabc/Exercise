@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Meet the brain</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../output.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+        <style>
+            .text{
+                background-image: url('./Background_decor.svg');
+                background-size:260px;
+                background-position:0 0;
+                background-repeat: no-repeat;
+            }
+            .gradient{
+                background: linear-gradient(
+                            180deg,
+                            rgba(217, 217, 217, 0) 0%,
+                            rgba(0, 0, 0, 0.8) 100%
+                            );
+            }
+        </style>
+    </head>
+    <body class="font-['Outfit']">
+        <div class="text bg-[#F3F4F6] absolute w-[1280px] h-[656px] top-1/2 -translate-x-1/2 left-1/2 -translate-y-1/2 rounded-3xl">
+            <div class="m-8 w-[520px] flex flex-col gap-3">
+                <p class="text-[#263FA9] text-[18px]">Our team</p>
+                <h1 class="text-[42px] font-medium -mt-1">Meet the brain</h1>
+                <p class="text-[#394150] text-[18px] leading-tight">
+                    We are proud to have them as part of our community and look 
+                    forward to cotinuing to push the boundaries of what's possible 
+                    in the world of digital art.
+                </p>
+                <button class="absolute bottom-8 text-[18px]">See all members<img src="arrow up right.svg" class="inline"></button>
+            </div>
+            <div class="grid grid-cols-3 w-fit absolute top-0 right-0 z-0">
+                <div class="col-start-2 col-span-1 h-[328px]">
+                    <img src="./person_1.png" class="block w-full bg-[#C1B6F8] h-[328px]">
+                    <div class="gradient text-white relative bottom-[118px] px-6 pb-6 pt-10">
+                        <h2 class="text-[21px] font-medium">Liam Novak</h2>
+                        <p class="font-light">Software Engineer</p>
+                    </div>
+                </div>
+                <div class="col-start-3 col-span-1 h-[328px]">
+                    <img src="./person_2.png" class="block w-full bg-[#86E7D4] h-[328px] rounded-tr-3xl">
+                    <div class="gradient text-white relative bottom-[118px] px-6 pb-6 pt-10">
+                        <h2 class="text-[21px] font-medium">Sophia Moretti</h2>
+                        <p class="font-light">Business Development Manager</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="./person_3.png" class="block w-full bg-[#C1B6F8] h-[328px]">
+                    <div class="gradient text-white relative bottom-[118px] px-6 pb-6 pt-10">
+                        <h2 class="text-[21px] font-medium">Ethan Rossi</h2>
+                        <p class="font-light">Business Development Manager</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="./person_4.png" class="block w-full bg-[#F8D8B0] h-[328px]">
+                    <div class="gradient text-white relative bottom-[118px] px-6 pb-6 pt-10">
+                        <h2 class="text-[21px] font-medium">Isabella Ricci</h2>
+                        <p class="font-light">UX Designer</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="./person_5.png" class="block w-full bg-[#EDACD2] h-[328px] rounded-br-3xl">
+                    <div class="gradient text-white relative bottom-[118px] px-6 pb-6 pt-10">
+                        <h2 class="text-[21px] font-medium">Noah Conti</h2>
+                        <p class="font-light">Content Creator</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
