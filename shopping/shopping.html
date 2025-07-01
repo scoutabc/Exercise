@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Device Shop Checkout</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../output.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+        <style>
+            #head {
+                background-image: url("./background-image.png");
+                background-repeat: no-repeat;
+                background-size: 100em;
+            }
+        </style>
+    </head>
+    <body class="font-['Inter'] bg-[#F3F4F6]">
+        <header class="h-64 pt-10 text-center" id="head">
+            <h1 class="text-[24px] font-bold text-white">Checkout <span class="text-[14px] font-normal bg-[#1D1D1F] rounded-full px-2 py-1 ml-2">3 ITEMS</span></h1>
+        </header>
+        <div class="flex absolute top-28 left-20 shadow-[0px_4px_4px_-1px_rgba(17,23,41,0.05)]">
+            <section class="bg-[#E5E7EB] w-[656px] p-7 rounded-l-xl">
+                <div class="flex flex-col gap-y-7">
+                    <div class="flex relative">
+                        <header class="mr-6 h-[90px] w-[90px] bg-[#F3F4F6] pt-[7px] rounded-lg">
+                            <img src="Gold.png" class="h-[75px] mx-auto">
+                        </header>
+                        <section>
+                            <h2 class="font-semibold">iPhone 12 Pro</h2>
+                            <p class="mb-6 text-[#394150]">Golden</p>
+                            <p class="text-[#394150]">x 1</p>
+                        </section>
+                        <footer class="absolute right-6">
+                            <p class="mb-11 font-semibold">$999.00</p>
+                            <img class="absolute right-0" src="close-icon.svg">
+                        </footer>
+                    </div>
+                    <div class="flex relative">
+                        <header class="mr-5 h-[90px] w-[90px] bg-[#F3F4F6] pt-[5px] rounded-lg">
+                            <img src="Apple-watch.png" class="h-[55px] mx-auto mt-[13px]">
+                        </header>
+                        <section>
+                            <h2 class="font-semibold">Apple Watch</h2>
+                            <p class="mb-5 text-[#394150]">Blue</p>
+                            <p class="text-[#394150]">x 1</p>
+                        </section>
+                        <footer class="absolute right-6">
+                            <p class="mb-11 font-semibold">$399.00</p>
+                            <img class="absolute right-0" src="close-icon.svg">
+                        </footer>
+                    </div>
+                    <div class="flex relative">
+                        <header class="mr-5 h-[90px] w-[90px] bg-[#F3F4F6] pt-[5px] rounded-lg">
+                            <img src="iMac.png" class="w-[73px] mx-auto mt-[10px]">
+                        </header>
+                        <section>
+                            <h2 class="font-semibold">iMac</h2>
+                            <p class="mb-5 text-[#394150]">Green</p>
+                            <p class="text-[#394150]">x 1</p>
+                        </section>
+                        <footer class="absolute right-6">
+                            <p class="mb-11 font-semibold">$1199.00</p>
+                            <img class="absolute right-0" src="close-icon.svg">
+                        </footer>
+                    </div>
+                    <hr class="border-[#D2D5DA] -mt-1 mb-6 mr-6"/>
+                </div>
+                <div>
+                    <input class="placeholder-[#394150] h-12 w-[415px] p-3 rounded-md mr-3" placeholder="Enter Coupon code" type="text">
+                    <button class="bg-[#1D1D1F] text-white h-12 rounded-md text-center w-36">Apply Coupon</button>
+                    <div class="flex mt-5 relative">
+                        <div class="text-left flex flex-col gap-2 font-medium mr-2">
+                            <h3>Sub total</h3> 
+                            <h3>Tax</h3> 
+                            <h3>Total</h3>
+                        </div>
+                        <div class="text-right flex flex-col gap-2 absolute right-6">
+                            <p>$2597.00</p>
+                            <p>$623.28</p>
+                            <p>$3220.28</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <form class="bg-white w-[656px] rounded-r-xl p-7 flex flex-col gap-5">
+                <h2 class="font-semibold">Contact Information</h2>
+                <div>
+                    <label class="text-[#394150] text-[14px] font-medium ">First & Last name</label><br />
+                    <input class="placeholder-[#394150] h-14 border border-[#D2D5DA] bg-[#F3F4F6] p-3 rounded-md w-[585px] mt-3" placeholder="Enter first & last name" type="text"><br />
+                </div>
+                <div>
+                    <label class="text-[#394150] text-[14px] font-medium"">Email Address</label><br />
+                    <input class="placeholder-[#394150] h-14 border border-[#D2D5DA] bg-[#F3F4F6] p-3 rounded-md w-[585px] mt-3" placeholder="Enter email address" type="email"><br />
+                </div>
+                <div class="flex">
+                    <div>
+                        <label class="text-[#394150] text-[14px] font-medium">Country</label><br />
+                        <select class="h-14 border border-[#D2D5DA] bg-[#F3F4F6] p-3 rounded-md w-[280px] mr-6 mt-3">
+                            <option>Finland</option>
+                            <option>France</option>
+                            <option>USA</option>
+                            <option>Germany</option>
+                            <option>Italy</option>
+                            <option>UK</option>
+                            <option>Spain</option>
+                            <option>Canada</option>
+                            <option>Japan</option>
+                            <option>South Korea</option>
+                            <option>Portugal</option>
+                            <option>China</option>
+                            <option>Russia</option>
+                            <option>Brazil</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="text-[#394150] text-[14px] font-medium">Postal Card</label><br />
+                        <input class="placeholder-[#394150] h-14 border border-[#D2D5DA] bg-[#F3F4F6] p-3 rounded-md w-[280px] mt-3" placeholder="00270" type="number">
+                    </div>
+                </div>
+                <button class="bg-[#1D1D1F] text-white h-14 w-[585px] rounded-md mt-1">Continue</button>
+            </form>
+        </div>
+    </body>
+</html>
